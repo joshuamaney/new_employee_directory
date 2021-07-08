@@ -1,8 +1,8 @@
 import './App.css';
-import Header from "./components/header";
-import Search from "./components/search";
-import Result from "./components/result";
-import Footer from "./components/footer";
+import Header from "./components/Header/header";
+import Search from "./components/Search/search";
+import Result from "./components/Result/result";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
