@@ -1,6 +1,6 @@
 {
-  "homepage": "https://joshuamaney.github.io/employee_directory",
-  "name": "employee_directory",
+  "homepage": "https://joshuamaney.github.io/new_employee_directory",
+  "name": "new_employee_directory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
