@@ -1,18 +1,14 @@
 import './App.css';
-import Header from "./components/Header/header";
-import Search from "./components/Search/search";
-import Result from "./components/Result/result";
-// import axios from "axios"
-// import Footer from "./components/Footer/footer";
+import Header from "./components/Header/header.js"
+import Table from "./components/Table/table";
+import React from 'react';
 
 
 function App() {
   return (
       <div>
         <Header />
-        <Search />
-        <Result />
-      {/* <Footer /> */}
+        <Table />
       </div>
   );
 }
