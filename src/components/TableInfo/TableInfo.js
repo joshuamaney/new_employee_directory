@@ -8,11 +8,11 @@ function TableInfo(props) {
 
     return (
         <tr key={props.login.uuid}>
-            <td className="align-middle"><img src={props.image} alt={name} /></td>
-            <td className="align-middle">{name}</td>
-            <td className="align-middle">{props.phone}</td>
-            <td className="align-middle">{props.email}</td>
-            <td className="align-middle">{moment(props.dob).format('M/D/YYYY')}</td>
+            <td><img src={props.image} alt={name} /></td>
+            <td>{name}</td>
+            <td>{props.phone}</td>
+            <td>{props.email}</td>
+            <td>{moment(props.dob).format('M/D/YYYY')}</td>
         </tr>
     )
 }
